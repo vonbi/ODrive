@@ -1,0 +1,11 @@
+GUI
+Update odrivetool:
+Environmental path for python and anaconda (where conda, where python)
+Needed: pip install odrive flask flask-socketio flask-cors in anaconda
+npm install in CMD in GUI folder
+run from Repo:
+CMD in GUI folder and run -npm run electron:serve- to build and run GUI
+Build an exe npm run electron:build --> exe in GUI/dist-electron
+
+Odrivetool:
+pip install --upgrade odrive in Anaconda
