@@ -1,0 +1,131 @@
+{
+  "component": "Dashboard",
+  "name": "Dashboard 1",
+  "id": "8cf55c7f-ec0c-433a-b936-14b68faaf72d",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.vbus_voltage"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.brake_resistance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.dc_max_negative_current"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.dc_max_positive_current"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_brake_resistor"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_can_a"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_dc_bus_overvoltage_ramp"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_i2c_a"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_uart_a"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_uart_b"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.config.enable_uart_c"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.error_gpio_pin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio1_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio2_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio3_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio4_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio5_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.gpio6_mode"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.max_regen_current"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart0_protocol"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart1_protocol"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart2_protocol"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart_a_baudrate"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart_b_baudrate"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.uart_c_baudrate"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.config.usb_cdc_protocol"
+    },
+    {
+      "controlType": "CtrlFunction",
+      "path": "odrives.odrive0.save_configuration"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "d9bbb202-5fe6-4844-92fa-1ba38594f794",
+      "vars": [
+        {
+          "path": "odrives.odrive0.vbus_voltage",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.ibus",
+          "color": "#ff7f0e"
+        }
+      ]
+    }
+  ]
+}

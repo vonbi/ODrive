@@ -1,3 +1,5 @@
+USB drivers: Make sure the native interface driver is libusb and cdc interface is usb serial
+
 GUI
 Update odrivetool:
 Environmental path for python and anaconda (where conda, where python)

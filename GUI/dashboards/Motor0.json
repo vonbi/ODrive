@@ -1,0 +1,47 @@
+{
+  "component": "Dashboard",
+  "name": "Dashboard 3",
+  "id": "0e409dab-a425-44cd-b5d7-25cec8d05593",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.pole_pairs"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.motor.config.motor_type",
+      "options": [
+        {
+          "text": "High Current",
+          "value": 0
+        },
+        {
+          "text": "Gimbal",
+          "value": 2
+        },
+        {
+          "text": "Induction",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.phase_inductance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.phase_resistance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.current_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.calibration_current"
+    }
+  ],
+  "actions": [],
+  "plots": []
+}
