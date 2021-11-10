@@ -1,0 +1,305 @@
+{
+  "component": "Dashboard",
+  "name": "Dashboard 1",
+  "id": "b02d90a6-11c7-48e7-901f-421666ddd96a",
+  "controls": [
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.brake_resistor_armed"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.brake_resistor_saturated"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.ibus"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.current_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.is_homed"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.controller.config.control_mode",
+      "options": [
+        {
+          "text": "Voltage Control",
+          "value": 0
+        },
+        {
+          "text": "Torque Control",
+          "value": 1
+        },
+        {
+          "text": "Velocity Control",
+          "value": 2
+        },
+        {
+          "text": "Position Control",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.controller.config.input_mode",
+      "options": [
+        {
+          "text": "Inactive",
+          "value": 0
+        },
+        {
+          "text": "Passthrough",
+          "value": 1
+        },
+        {
+          "text": "Velocity Ramp",
+          "value": 2
+        },
+        {
+          "text": "Position Filter",
+          "value": 3
+        },
+        {
+          "text": "Mix Channels",
+          "value": 4
+        },
+        {
+          "text": "Trapezoidal Trajectory",
+          "value": 5
+        },
+        {
+          "text": "Torque Ramp",
+          "value": 6
+        },
+        {
+          "text": "Mirror",
+          "value": 7
+        },
+        {
+          "text": "Tuning",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.index_found"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.is_ready"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_encoder_index_search"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.max_allowed_current"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.enable_step_dir"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.step_dir_always_on"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_encoder_index_search"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.step_dir_active"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.controller.config.control_mode",
+      "options": [
+        {
+          "text": "Voltage Control",
+          "value": 0
+        },
+        {
+          "text": "Torque Control",
+          "value": 1
+        },
+        {
+          "text": "Velocity Control",
+          "value": 2
+        },
+        {
+          "text": "Position Control",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.requested_current_range"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.steps"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.circular_setpoint_range"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.config.circular_setpoints"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.steps_per_circular_range"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "ecbc493b-8c7d-4020-9196-9fc23fe2616c",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phA",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phB",
+          "color": "#ff7f0e"
+        },
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phC",
+          "color": "#2ca02c"
+        }
+      ]
+    }
+  ]
+}
