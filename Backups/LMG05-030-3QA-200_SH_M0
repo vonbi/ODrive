@@ -1,0 +1,469 @@
+{
+  "axis0": {
+    "acim_estimator": {
+      "config": {
+        "slip_velocity": 14.706000328063965
+      }
+    },
+    "config": {
+      "dir_gpio_pin": 2,
+      "enable_sensorless_mode": false,
+      "enable_step_dir": false,
+      "enable_watchdog": false,
+      "startup_closed_loop_control": true,
+      "startup_encoder_index_search": false,
+      "startup_encoder_offset_calibration": true,
+      "startup_homing": false,
+      "startup_motor_calibration": true,
+      "step_dir_always_on": false,
+      "step_gpio_pin": 3,
+      "watchdog_timeout": 0,
+      "calibration_lockin": {
+        "accel": 20,
+        "current": 10,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 40
+      },
+      "can": {
+        "encoder_rate_ms": 10,
+        "heartbeat_rate_ms": 100,
+        "is_extended": false,
+        "node_id": 0
+      },
+      "general_lockin": {
+        "accel": 20,
+        "current": 10,
+        "finish_distance": 100,
+        "finish_on_distance": false,
+        "finish_on_enc_idx": false,
+        "finish_on_vel": false,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 40
+      },
+      "sensorless_ramp": {
+        "accel": 200,
+        "current": 10,
+        "finish_distance": 100,
+        "finish_on_distance": false,
+        "finish_on_enc_idx": false,
+        "finish_on_vel": true,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 400
+      }
+    },
+    "controller": {
+      "config": {
+        "axis_to_mirror": 255,
+        "circular_setpoint_range": 2,
+        "circular_setpoints": false,
+        "control_mode": 3,
+        "electrical_power_bandwidth": 20,
+        "enable_gain_scheduling": true,
+        "enable_overspeed_error": true,
+        "enable_torque_mode_vel_limit": true,
+        "enable_vel_limit": true,
+        "gain_scheduling_width": 0.0010000000474974513,
+        "homing_speed": 0.25,
+        "inertia": 0,
+        "input_filter_bandwidth": 5,
+        "input_mode": 5,
+        "load_encoder_axis": 0,
+        "mechanical_power_bandwidth": 20,
+        "mirror_ratio": 1,
+        "pos_gain": 246.875,
+        "spinout_electrical_power_threshold": 10,
+        "spinout_mechanical_power_threshold": -10,
+        "steps_per_circular_range": 1200,
+        "torque_mirror_ratio": 0,
+        "torque_ramp_rate": 1,
+        "vel_gain": 0.002008050912991166,
+        "vel_integrator_gain": 0.0009125855285674334,
+        "vel_integrator_limit": Infinity,
+        "vel_limit": 64,
+        "vel_limit_tolerance": 1.25,
+        "vel_ramp_rate": 20,
+        "anticogging": {
+          "anticogging_enabled": true,
+          "calib_anticogging": false,
+          "calib_pos_threshold": 1,
+          "calib_vel_threshold": 1,
+          "cogging_ratio": 1,
+          "index": 0,
+          "pre_calibrated": false
+        }
+      }
+    },
+    "encoder": {
+      "config": {
+        "abs_spi_cs_gpio_pin": 1,
+        "bandwidth": 4000,
+        "calib_range": 0.019999999552965164,
+        "calib_scan_distance": 50.26548385620117,
+        "calib_scan_omega": 12.566370964050293,
+        "cpr": 160000,
+        "direction": 1,
+        "enable_phase_interpolation": true,
+        "find_idx_on_lockin_only": false,
+        "hall_polarity_calibrated": false,
+        "hall_polarity": 0,
+        "ignore_illegal_hall_state": false,
+        "index_offset": 0,
+        "mode": 0,
+        "phase_offset_float": 1.138704776763916,
+        "phase_offset": 641988,
+        "pre_calibrated": false,
+        "sincos_gpio_pin_cos": 4,
+        "sincos_gpio_pin_sin": 3,
+        "use_index_offset": false,
+        "use_index": true
+      }
+    },
+    "max_endstop": {
+      "config": {
+        "debounce_ms": 50,
+        "enabled": false,
+        "gpio_num": 0,
+        "is_active_high": false,
+        "offset": 0
+      }
+    },
+    "mechanical_brake": {
+      "config": {
+        "gpio_num": 0,
+        "is_active_low": true
+      }
+    },
+    "min_endstop": {
+      "config": {
+        "debounce_ms": 50,
+        "enabled": false,
+        "gpio_num": 0,
+        "is_active_high": false,
+        "offset": 0
+      }
+    },
+    "motor": {
+      "config": {
+        "I_bus_hard_max": Infinity,
+        "I_bus_hard_min": -Infinity,
+        "I_leak_max": 0.10000000149011612,
+        "R_wL_FF_enable": false,
+        "acim_autoflux_attack_gain": 10,
+        "acim_autoflux_decay_gain": 1,
+        "acim_autoflux_enable": false,
+        "acim_autoflux_min_Id": 10,
+        "acim_gain_min_flux": 10,
+        "bEMF_FF_enable": false,
+        "calibration_current": 2.5,
+        "current_control_bandwidth": 1000,
+        "current_lim_margin": 8,
+        "current_lim": 5,
+        "dc_calib_tau": 0.20000000298023224,
+        "inverter_temp_limit_lower": 100,
+        "inverter_temp_limit_upper": 120,
+        "motor_type": 0,
+        "phase_inductance": 0.0058609554544091225,
+        "phase_resistance": 1.3912272453308105,
+        "pole_pairs": 1,
+        "pre_calibrated": false,
+        "requested_current_range": 20,
+        "resistance_calib_max_voltage": 5,
+        "torque_constant": 0.019999999552965164,
+        "torque_lim": 100
+      },
+      "fet_thermistor": {
+        "config": {
+          "enabled": true,
+          "temp_limit_lower": 100,
+          "temp_limit_upper": 120
+        }
+      },
+      "motor_thermistor": {
+        "config": {
+          "enabled": false,
+          "gpio_pin": 4,
+          "poly_coefficient_0": 0,
+          "poly_coefficient_1": 0,
+          "poly_coefficient_2": 0,
+          "poly_coefficient_3": 0,
+          "temp_limit_lower": 100,
+          "temp_limit_upper": 120
+        }
+      }
+    },
+    "sensorless_estimator": {
+      "config": {
+        "observer_gain": 1000,
+        "pll_bandwidth": 1000,
+        "pm_flux_linkage": 0.0015800000401213765
+      }
+    },
+    "trap_traj": {
+      "config": {
+        "accel_limit": 256,
+        "decel_limit": 256,
+        "vel_limit": 50
+      }
+    }
+  },
+  "axis1": {
+    "acim_estimator": {
+      "config": {
+        "slip_velocity": 14.706000328063965
+      }
+    },
+    "config": {
+      "dir_gpio_pin": 8,
+      "enable_sensorless_mode": false,
+      "enable_step_dir": false,
+      "enable_watchdog": false,
+      "startup_closed_loop_control": false,
+      "startup_encoder_index_search": false,
+      "startup_encoder_offset_calibration": false,
+      "startup_homing": false,
+      "startup_motor_calibration": false,
+      "step_dir_always_on": false,
+      "step_gpio_pin": 7,
+      "watchdog_timeout": 0,
+      "calibration_lockin": {
+        "accel": 20,
+        "current": 10,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 40
+      },
+      "can": {
+        "encoder_rate_ms": 10,
+        "heartbeat_rate_ms": 100,
+        "is_extended": false,
+        "node_id": 1
+      },
+      "general_lockin": {
+        "accel": 20,
+        "current": 10,
+        "finish_distance": 100,
+        "finish_on_distance": false,
+        "finish_on_enc_idx": false,
+        "finish_on_vel": false,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 40
+      },
+      "sensorless_ramp": {
+        "accel": 200,
+        "current": 10,
+        "finish_distance": 100,
+        "finish_on_distance": false,
+        "finish_on_enc_idx": false,
+        "finish_on_vel": true,
+        "ramp_distance": 3.1415927410125732,
+        "ramp_time": 0.4000000059604645,
+        "vel": 400
+      }
+    },
+    "controller": {
+      "config": {
+        "axis_to_mirror": 255,
+        "circular_setpoint_range": 1,
+        "circular_setpoints": false,
+        "control_mode": 3,
+        "electrical_power_bandwidth": 20,
+        "enable_gain_scheduling": false,
+        "enable_overspeed_error": true,
+        "enable_torque_mode_vel_limit": true,
+        "enable_vel_limit": true,
+        "gain_scheduling_width": 10,
+        "homing_speed": 0.25,
+        "inertia": 0,
+        "input_filter_bandwidth": 2,
+        "input_mode": 1,
+        "load_encoder_axis": 1,
+        "mechanical_power_bandwidth": 20,
+        "mirror_ratio": 1,
+        "pos_gain": 20,
+        "spinout_electrical_power_threshold": 10,
+        "spinout_mechanical_power_threshold": -10,
+        "steps_per_circular_range": 1024,
+        "torque_mirror_ratio": 0,
+        "torque_ramp_rate": 0.009999999776482582,
+        "vel_gain": 0.1666666716337204,
+        "vel_integrator_gain": 0.3333333432674408,
+        "vel_integrator_limit": Infinity,
+        "vel_limit": 2,
+        "vel_limit_tolerance": 1.2000000476837158,
+        "vel_ramp_rate": 1,
+        "anticogging": {
+          "anticogging_enabled": true,
+          "calib_anticogging": false,
+          "calib_pos_threshold": 1,
+          "calib_vel_threshold": 1,
+          "cogging_ratio": 1,
+          "index": 0,
+          "pre_calibrated": false
+        }
+      }
+    },
+    "encoder": {
+      "config": {
+        "abs_spi_cs_gpio_pin": 1,
+        "bandwidth": 1000,
+        "calib_range": 0.019999999552965164,
+        "calib_scan_distance": 50.26548385620117,
+        "calib_scan_omega": 12.566370964050293,
+        "cpr": 8192,
+        "direction": 0,
+        "enable_phase_interpolation": true,
+        "find_idx_on_lockin_only": false,
+        "hall_polarity_calibrated": false,
+        "hall_polarity": 0,
+        "ignore_illegal_hall_state": false,
+        "index_offset": 0,
+        "mode": 0,
+        "phase_offset_float": 0,
+        "phase_offset": 0,
+        "pre_calibrated": false,
+        "sincos_gpio_pin_cos": 4,
+        "sincos_gpio_pin_sin": 3,
+        "use_index_offset": true,
+        "use_index": false
+      }
+    },
+    "max_endstop": {
+      "config": {
+        "debounce_ms": 50,
+        "enabled": false,
+        "gpio_num": 0,
+        "is_active_high": false,
+        "offset": 0
+      }
+    },
+    "mechanical_brake": {
+      "config": {
+        "gpio_num": 0,
+        "is_active_low": true
+      }
+    },
+    "min_endstop": {
+      "config": {
+        "debounce_ms": 50,
+        "enabled": false,
+        "gpio_num": 0,
+        "is_active_high": false,
+        "offset": 0
+      }
+    },
+    "motor": {
+      "config": {
+        "I_bus_hard_max": Infinity,
+        "I_bus_hard_min": -Infinity,
+        "I_leak_max": 0.10000000149011612,
+        "R_wL_FF_enable": false,
+        "acim_autoflux_attack_gain": 10,
+        "acim_autoflux_decay_gain": 1,
+        "acim_autoflux_enable": false,
+        "acim_autoflux_min_Id": 10,
+        "acim_gain_min_flux": 10,
+        "bEMF_FF_enable": false,
+        "calibration_current": 10,
+        "current_control_bandwidth": 1000,
+        "current_lim_margin": 8,
+        "current_lim": 10,
+        "dc_calib_tau": 0.20000000298023224,
+        "inverter_temp_limit_lower": 100,
+        "inverter_temp_limit_upper": 120,
+        "motor_type": 0,
+        "phase_inductance": 0,
+        "phase_resistance": 0,
+        "pole_pairs": 7,
+        "pre_calibrated": false,
+        "requested_current_range": 60,
+        "resistance_calib_max_voltage": 2,
+        "torque_constant": 0.03999999910593033,
+        "torque_lim": Infinity
+      },
+      "fet_thermistor": {
+        "config": {
+          "enabled": true,
+          "temp_limit_lower": 100,
+          "temp_limit_upper": 120
+        }
+      },
+      "motor_thermistor": {
+        "config": {
+          "enabled": false,
+          "gpio_pin": 4,
+          "poly_coefficient_0": 0,
+          "poly_coefficient_1": 0,
+          "poly_coefficient_2": 0,
+          "poly_coefficient_3": 0,
+          "temp_limit_lower": 100,
+          "temp_limit_upper": 120
+        }
+      }
+    },
+    "sensorless_estimator": {
+      "config": {
+        "observer_gain": 1000,
+        "pll_bandwidth": 1000,
+        "pm_flux_linkage": 0.0015800000401213765
+      }
+    },
+    "trap_traj": {
+      "config": {
+        "accel_limit": 0.5,
+        "decel_limit": 0.5,
+        "vel_limit": 2
+      }
+    }
+  },
+  "can": {
+    "config": {
+      "baud_rate": 250000,
+      "protocol": 0
+    }
+  },
+  "config": {
+    "brake_resistance": 68,
+    "dc_bus_overvoltage_ramp_end": 59.92000198364258,
+    "dc_bus_overvoltage_ramp_start": 59.92000198364258,
+    "dc_bus_overvoltage_trip_level": 59.92000198364258,
+    "dc_bus_undervoltage_trip_level": 8,
+    "dc_max_negative_current": -0.009999999776482582,
+    "dc_max_positive_current": 10,
+    "enable_brake_resistor": true,
+    "enable_can_a": true,
+    "enable_dc_bus_overvoltage_ramp": false,
+    "enable_i2c_a": false,
+    "enable_uart_a": true,
+    "enable_uart_b": false,
+    "enable_uart_c": false,
+    "error_gpio_pin": 0,
+    "gpio10_mode": 11,
+    "gpio11_mode": 2,
+    "gpio12_mode": 12,
+    "gpio13_mode": 12,
+    "gpio14_mode": 2,
+    "gpio15_mode": 7,
+    "gpio16_mode": 7,
+    "gpio1_mode": 4,
+    "gpio2_mode": 0,
+    "gpio3_mode": 2,
+    "gpio4_mode": 3,
+    "gpio5_mode": 3,
+    "gpio6_mode": 0,
+    "gpio7_mode": 0,
+    "gpio8_mode": 0,
+    "gpio9_mode": 11,
+    "max_regen_current": 0,
+    "uart0_protocol": 3,
+    "uart1_protocol": 3,
+    "uart2_protocol": 3,
+    "uart_a_baudrate": 115200,
+    "uart_b_baudrate": 115200,
+    "uart_c_baudrate": 115200,
+    "usb_cdc_protocol": 3
+  }
+}
