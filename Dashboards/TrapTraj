@@ -1,0 +1,33 @@
+{
+  "component": "Dashboard",
+  "name": "TrapTraj",
+  "id": "7ae2fa35-ffac-4abf-ab4e-54c8e2342498",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.trap_traj.config.accel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.trap_traj.config.decel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.trap_traj.config.vel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.trap_traj.config.accel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.trap_traj.config.decel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.trap_traj.config.vel_limit"
+    }
+  ],
+  "actions": [],
+  "plots": []
+}

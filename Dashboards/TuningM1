@@ -1,0 +1,188 @@
+{
+  "component": "Dashboard",
+  "name": "TuningM1",
+  "id": "8cbcbd3d-5edd-4d75-b3c1-0da4594de976",
+  "controls": [
+    {
+      "controlType": "CtrlFunction",
+      "path": "odrives.odrive0.reboot"
+    },
+    {
+      "controlType": "CtrlFunction",
+      "path": "odrives.odrive0.save_configuration"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim_margin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_limit_tolerance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_gain"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_integrator_gain"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.vel_integrator_limit"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.config.pos_gain"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis1.controller.config.input_mode",
+      "options": [
+        {
+          "text": "Inactive",
+          "value": 0
+        },
+        {
+          "text": "Passthrough",
+          "value": 1
+        },
+        {
+          "text": "Velocity Ramp",
+          "value": 2
+        },
+        {
+          "text": "Position Filter",
+          "value": 3
+        },
+        {
+          "text": "Mix Channels",
+          "value": 4
+        },
+        {
+          "text": "Trapezoidal Trajectory",
+          "value": 5
+        },
+        {
+          "text": "Torque Ramp",
+          "value": 6
+        },
+        {
+          "text": "Mirror",
+          "value": 7
+        },
+        {
+          "text": "Tuning",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis1.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.input_pos"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.input_pos"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "704b35b6-191b-4643-a940-9e044ffe43b3",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.controller.input_pos",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.encoder.pos_estimate",
+          "color": "#ff7f0e"
+        }
+      ]
+    },
+    {
+      "name": "950fbba1-7f4b-4b45-9e56-d52b630e9140",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.controller.vel_setpoint",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.encoder.vel_estimate",
+          "color": "#ff7f0e"
+        }
+      ]
+    }
+  ]
+}

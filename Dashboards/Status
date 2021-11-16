@@ -1,0 +1,339 @@
+{
+  "component": "Dashboard",
+  "name": "State",
+  "id": "2dd60cdc-f720-4e3d-ba0d-4080e67f2935",
+  "controls": [
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.current_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.is_homed"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.last_drv_fault"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.step_dir_active"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.steps"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.trajectory_done"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.index_found"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.is_ready"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.motor.is_armed"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.motor.is_calibrated"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.is_homed"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.last_drv_fault"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis1.requested_state",
+      "options": [
+        {
+          "text": "Undefined",
+          "value": 0
+        },
+        {
+          "text": "Idle",
+          "value": 1
+        },
+        {
+          "text": "Startup Sequence",
+          "value": 2
+        },
+        {
+          "text": "Full Calibration Sequence",
+          "value": 3
+        },
+        {
+          "text": "Motor Calibration",
+          "value": 4
+        },
+        {
+          "text": "Sensorless Control",
+          "value": 5
+        },
+        {
+          "text": "Encoder Index Search",
+          "value": 6
+        },
+        {
+          "text": "Encoder Offset Calibration",
+          "value": 7
+        },
+        {
+          "text": "Closed Loop Control",
+          "value": 8
+        },
+        {
+          "text": "Lockin Spin",
+          "value": 9
+        },
+        {
+          "text": "Encoder Direction Find",
+          "value": 10
+        },
+        {
+          "text": "Homing",
+          "value": 11
+        },
+        {
+          "text": "Encoder Hall Polarity Calibration",
+          "value": 12
+        },
+        {
+          "text": "Encoder Hall Phase Calibration",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.step_dir_active"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.steps"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.controller.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.controller.trajectory_done"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.encoder.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.index_found"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.is_ready"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.error"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.motor.is_armed"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.motor.is_calibrated"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.brake_resistor_armed"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.brake_resistor_saturated"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "4c573dc0-f992-4202-8cf1-ae37b10e2fb1",
+      "vars": [
+        {
+          "path": "odrives.odrive0.brake_resistor_current",
+          "color": "#1f77b4"
+        }
+      ]
+    },
+    {
+      "name": "5ad7d7fb-47cc-49c5-9898-d195f2d2a6a4",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.motor.fet_thermistor.temperature",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.motor.fet_thermistor.temperature",
+          "color": "#ff7f0e"
+        }
+      ]
+    },
+    {
+      "name": "79c38c7a-4790-4dae-a7db-a35dfb918bf4",
+      "vars": [
+        {
+          "path": "odrives.odrive0.ibus",
+          "color": "#1f77b4"
+        }
+      ]
+    }
+  ]
+}

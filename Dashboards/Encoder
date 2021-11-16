@@ -1,0 +1,160 @@
+{
+  "component": "Dashboard",
+  "name": "Encoder",
+  "id": "8309d3f3-7894-4d63-aed3-1ea3179f0c39",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.config.bandwidth"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.config.calib_range"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.config.cpr"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.config.enable_phase_interpolation"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.config.index_offset"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis0.encoder.config.mode",
+      "options": [
+        {
+          "text": "Incremental",
+          "value": 0
+        },
+        {
+          "text": "Hall Effect",
+          "value": 1
+        },
+        {
+          "text": "Sine Cosine",
+          "value": 2
+        },
+        {
+          "text": "CUI Absolute",
+          "value": 256
+        },
+        {
+          "text": "AMS Absolute",
+          "value": 257
+        },
+        {
+          "text": "AEAT Absolute",
+          "value": 258
+        },
+        {
+          "text": "RLS Absolute",
+          "value": 259
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.config.pre_calibrated"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.config.use_index_offset"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.encoder.config.use_index"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.encoder.config.bandwidth"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.encoder.config.calib_range"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.encoder.config.cpr"
+    },
+	{
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.config.enable_phase_interpolation"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.encoder.config.index_offset"
+    },
+    {
+      "controlType": "CtrlEnum",
+      "path": "odrives.odrive0.axis1.encoder.config.mode",
+      "options": [
+        {
+          "text": "Incremental",
+          "value": 0
+        },
+        {
+          "text": "Hall Effect",
+          "value": 1
+        },
+        {
+          "text": "Sine Cosine",
+          "value": 2
+        },
+        {
+          "text": "CUI Absolute",
+          "value": 256
+        },
+        {
+          "text": "AMS Absolute",
+          "value": 257
+        },
+        {
+          "text": "AEAT Absolute",
+          "value": 258
+        },
+        {
+          "text": "RLS Absolute",
+          "value": 259
+        }
+      ]
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.config.pre_calibrated"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.config.use_index_offset"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.encoder.config.use_index"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "57439018-4cb4-4454-8ffc-acc2ba9fbed3",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.encoder.shadow_count",
+          "color": "#1f77b4"
+        }
+      ]
+    },
+    {
+      "name": "38cb45cc-36db-4f1b-88a2-c0c560b492ed",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.encoder.shadow_count",
+          "color": "#1f77b4"
+        }
+      ]
+    }
+  ]
+}

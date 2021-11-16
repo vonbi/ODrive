@@ -1,0 +1,59 @@
+{
+  "component": "Dashboard",
+  "name": "Dashboard 4",
+  "id": "eed55e82-f329-42f9-a3aa-678a831b6b48",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.encoder.config.bandwidth"
+    },
+    {
+      "controlType": "CtrlFunction",
+      "path": "odrives.odrive0.axis0.controller.start_anticogging_calibration"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.anticogging_valid"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.anticogging_enabled"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.calib_anticogging"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.calib_pos_threshold"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.calib_vel_threshold"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.cogging_ratio"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.index"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.controller.config.anticogging.pre_calibrated"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "8e3adba0-d736-4ee7-972c-965018f2af88",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.controller.config.anticogging.index",
+          "color": "#1f77b4"
+        }
+      ]
+    }
+  ]
+}

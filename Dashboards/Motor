@@ -1,0 +1,156 @@
+{
+  "component": "Dashboard",
+  "name": "Motor",
+  "id": "6549793f-3418-454f-bc9b-c0f9079a1795",
+  "controls": [
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.calibration_current"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.current_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.current_lim_margin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.phase_inductance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.phase_resistance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.pole_pairs"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.motor.config.pre_calibrated"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.requested_current_range"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.resistance_calib_max_voltage"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.torque_constant"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.current_control_bandwidth"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.current_lim_margin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.torque_constant"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis0.motor.config.torque_lim"
+    },
+	{
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.calibration_current"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim_margin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.phase_inductance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.phase_resistance"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.pole_pairs"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.motor.config.pre_calibrated"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.requested_current_range"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.resistance_calib_max_voltage"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.torque_constant"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_control_bandwidth"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.current_lim_margin"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.torque_constant"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.torque_lim"
+    }
+  ],
+  "actions": [],
+  "plots": [
+    {
+      "name": "a1fe987c-1580-4725-ae91-8489a14e4947",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phA",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phB",
+          "color": "#ff7f0e"
+        },
+        {
+          "path": "odrives.odrive0.axis0.motor.current_meas_phC",
+          "color": "#2ca02c"
+        }
+      ]
+    },
+    {
+      "name": "d1f56282-7cb8-45eb-8ee7-f3191dbeff88",
+      "vars": [
+        {
+          "path": "odrives.odrive0.axis1.motor.current_meas_phA",
+          "color": "#1f77b4"
+        },
+        {
+          "path": "odrives.odrive0.axis1.motor.current_meas_phB",
+          "color": "#ff7f0e"
+        },
+        {
+          "path": "odrives.odrive0.axis1.motor.current_meas_phC",
+          "color": "#2ca02c"
+        }
+      ]
+    }
+  ]
+}

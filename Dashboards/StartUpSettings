@@ -1,0 +1,49 @@
+{
+  "component": "Dashboard",
+  "name": "StartUp",
+  "id": "8fab2892-24c5-46d3-b226-4e511ba0afdb",
+  "controls": [
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_closed_loop_control"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_encoder_index_search"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_encoder_offset_calibration"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_homing"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis0.config.startup_motor_calibration"
+    },
+	{
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.config.startup_closed_loop_control"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.config.startup_encoder_index_search"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.config.startup_encoder_offset_calibration"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.config.startup_homing"
+    },
+    {
+      "controlType": "CtrlBoolean",
+      "path": "odrives.odrive0.axis1.config.startup_motor_calibration"
+    }
+  ],
+  "actions": [],
+  "plots": []
+}
