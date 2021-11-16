@@ -25,7 +25,8 @@
 #if HW_VERSION_MINOR <= 3
 #define SHUNT_RESISTANCE (675e-6f)
 #else
-#define SHUNT_RESISTANCE (10e-3f) //0.010Ohm Custom Resistor Irange 20A
+#define SHUNT_RESISTANCE (20e-3f) //0.010Ohm Custom Resistor Irange 14.4A M0
+                                   //0.020Ohm Custom Resistor Irange 7.2A M1
 #endif
 
 #define AXIS_COUNT (2)
