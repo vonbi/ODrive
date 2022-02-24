@@ -13,10 +13,6 @@
     },
     {
       "controlType": "CtrlNumeric",
-      "path": "odrives.odrive0.axis0.motor.config.current_lim_margin"
-    },
-    {
-      "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis0.motor.config.phase_inductance"
     },
     {
@@ -49,27 +45,19 @@
     },
     {
       "controlType": "CtrlNumeric",
-      "path": "odrives.odrive0.axis0.motor.config.current_lim_margin"
-    },
-    {
-      "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis0.motor.config.torque_constant"
     },
     {
       "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis0.motor.config.torque_lim"
     },
-	{
+    {
       "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis1.motor.config.calibration_current"
     },
     {
       "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis1.motor.config.current_lim"
-    },
-    {
-      "controlType": "CtrlNumeric",
-      "path": "odrives.odrive0.axis1.motor.config.current_lim_margin"
     },
     {
       "controlType": "CtrlNumeric",
@@ -105,15 +93,15 @@
     },
     {
       "controlType": "CtrlNumeric",
-      "path": "odrives.odrive0.axis1.motor.config.current_lim_margin"
-    },
-    {
-      "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis1.motor.config.torque_constant"
     },
     {
       "controlType": "CtrlNumeric",
       "path": "odrives.odrive0.axis1.motor.config.torque_lim"
+    },
+    {
+      "controlType": "CtrlNumeric",
+      "path": "odrives.odrive0.axis1.motor.config.resistance_calib_max_voltage"
     }
   ],
   "actions": [],
